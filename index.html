@@ -28,6 +28,41 @@
 
     <!-- Para subir mi proyecto a github
     Una vez terminado: 
-    terminal -->
+    terminal ->git init ( se inicializa solo una vez)
+    PS C:\Users\smcas\Desktop\GIT\sitioweb> git init
+Initialized empty Git repository in C:/Users/smcas/Desktop/GIT/sitioweb/.git/
+PS C:\Users\smcas\Desktop\GIT\sitioweb> git status -s
+?? index.html
+PS C:\Users\smcas\Desktop\GIT\sitioweb> git add .
+PS C:\Users\smcas\Desktop\GIT\sitioweb> git commit -m "creamos nuestro primer index"
+[master (root-commit) 1c55c8a] creamos nuestro primer index
+ 1 file changed, 33 insertions(+)
+ create mode 100644 index.html
+PS C:\Users\smcas\Desktop\GIT\sitioweb> 
+
+PS C:\Users\smcas\Desktop\GIT\sitioweb> git remote add origin https://github.com/smca-stella/smca.stella.github.io.git
+PS C:\Users\smcas\Desktop\GIT\sitioweb> git push -u origin main
+
+PS C:\Users\smcas\Desktop\GIT\sitioweb> git remote add origin https://github.com/smca-stella/smca.stella.github.io.git
+PS C:\Users\smcas\Desktop\GIT\sitioweb> git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/smca-stella/smca.stella.github.io.git'
+PS C:\Users\smcas\Desktop\GIT\sitioweb> git branch -M main
+PS C:\Users\smcas\Desktop\GIT\sitioweb>  git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 997 bytes | 332.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/smca-stella/smca.stella.github.io.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+PS C:\Users\smcas\Desktop\GIT\sitioweb>-->
+<!--  
+Actualizamos nuestra pagina de github y nos aparece nuestro repositorio
+A continuacion vamos a settings > y luego al apartado GitHub Pages y encontramos nuestra url
+
+-->
   </body>
 </html>
